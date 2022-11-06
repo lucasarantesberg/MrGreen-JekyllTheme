@@ -29,6 +29,11 @@ youtube:
 facebook:
   icon: "fa fa-facebook"
   url: "https://www.facebook.com"
+scholar:
+  icon: "fa fa-graduation-cap"
+  url: "https://scholar.google.com"
+orcid:
+  icon
 # add your new contact
 # your_new_contact:
 #   icon: "fa fa-font"
