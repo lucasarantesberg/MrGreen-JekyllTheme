@@ -8,8 +8,8 @@ page_data:
     info: "Project page description."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
-    back_color: "lightblue"
+    #img: ":projects-heading.jpg"
+    back_color: "darkgray"
 
   category:
     - title: "Example"
@@ -23,163 +23,16 @@ page_data:
       color: "#2FD0ED"
 
   list:
-    # example
-    - type: id_example
-      project_name: "Example Project"
-      project_excerpt: "Examples"
-      img: ":project1_thumb.jpg"
-      img_title: "img title1"
-      date: "2021-03-13"
-      post: |
-        # Examples
-
-        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
-
-        ### Headings (centered)
-        {:data-align="center"}
-
-        # Heading 1
-
-        ## Heading 2
-
-        ### Heading 3
-
-        #### Heading 4
-
-        ##### Heading 5
-
-        ###### Heading 6
-
-        ***
-
-        ### Paragraphs
-
-        #### Paragraph
-
-        **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        #### Texts
-
-        Quoted text `Hello world`
-
-        Bold text **Hello world**
-
-        Italic text _Hello world_
-
-        kbd text <kbd>Hello world</kbd>
-
-        #### Blockquote
-
-        > **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        ### Link
-
-        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-        ### Picture
-
-        ![such a lovely place](:projects-heading.jpg)
-
-        ### Picture (centered)
-
-        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
-
-        ### Lists
-
-        - Apple
-        - Banana
-        - Orange
-
-        1. Fruits
-            1. Apples
-                - Granny Smith
-                - Mutsu
-            1. Bananas
-                - Cavendish
-                - Red
-        1. Vegetables
-
-        ***
-
-        ### Tables
-
-        #### Small Table (centered)
-
-        | Fruits(not aligned) | Alignment (centered) | num (right align) |
-        | ------------------- | :------------------: | ----------------: |
-        | Apple               |       centered       |              9999 |
-        | Banana              |  centered long text  |               999 |
-        | Orange              |       centered       |                99 |
-        | Lemon               |       centered       |                 9 |
-        {:data-align="center"}
-
-        #### Wide Table (centered)
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-        | Banana | 111              |               111 | 222  | 333  | 444  |
-        | Orange | 11               |                11 | 22   | 33   | 44   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
-        {:data-align="center"}
-
-        #### Wider Table
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-        ### Code
-
-        #### Quote
-
-        ```python
-        for i in range(5, 10):
-          print(i)
-        ```
-
     # MonoAlg3D
-    - type: id_example
+    - type: id_quote
       project_name: "MonoAlg3D_C"
       project_excerpt: "MonoAlg3D_C"
-      img: ":project2_thumb.jpg"
+      img: ":monoalg_icon.png"
       img_title: "img title2"
       date: "2022-11-01"
       post: |
-        ## MonoAlg3D
+        ## MonoAlg3D 
+        Source code available on: [https://github.com/bergolho/MonoAlg3D_C](https://github.com/bergolho/MonoAlg3D_C).
 
         The MonoAlg3D is a program for solving the 3D monodomain model. It is given by a reaction-diffusion equation and is numeracally solved by applying the Finite Volume Method. The program is implemented in C and maintained by the FISIOCOMP research group. A main advantage of the solver is that not only is able to solve the monodomain equations and simulate the action potential propagation in heterogeneous tissue using both the CPU and GPU computing power, but can also handle non-uniform and non-conforming adaptive meshes. 
 
@@ -225,6 +78,81 @@ page_data:
         Oliveira RS, Rocha BM, Burgarelli D, Meira Jr W, Constantinides C, dos Santos RW. Performance evaluation of GPU parallelization, space‐time adaptive algorithms, and their combination for simulating cardiac electrophysiology. Int J Numer Meth Biomed Engng. 2018;34:e2913. https://doi.org/10.1002/cnm.2913
 
         Lawson, B. A., Oliveira, R. S., Berg, L. A., Silva, P. A., Burrage, K., & Dos Santos, R. W. (2020). Variability in electrophysiological properties and conducting obstacles controls re-entry risk in heterogeneous ischaemic tissue. Philosophical Transactions of the Royal Society A, 378(2173), 20190341. https://doi.org/10.1098/rsta.2019.0341
+
+    # Shocker
+    - type: id_quote
+      project_name: "Shocker"
+      project_excerpt: "Shocker"
+      img: ":shocker_icon.png"
+      img_title: "img title2"
+      date: "2022-11-01"
+      post: |
+        ## Shocker
+        Source code available on: [https://github.com/bergolho/Shocker](https://github.com/bergolho/Shocker).
+
+        The Shocker is a program for generating Purkinje networks (PN) in any type of endocardium surface which was implemented by me during my Phd. The Purkinje network 
+        is part of the Cardiac Conduction System (CCS) and is responsible for activating the ventricular walls in synchronous manner.
+
+        To generate a Purkinje network, the input data of the method is the following: an endocardium surface, a proximal location for the root branch, which must be within the endocardium surface. 
+        
+        In addition, the user can supply a set of active Purkinje-Ventricular-Muscles (PVJs) with their respective coordinates and Local Activation Time (LAT). In this scenario the Shocker method will try to connect
+        the given active PVJs close to their reference LAT using optimization principles. 
+        
+        Furthermore, another feature of the Shocker program is that the user can also pass an initial configuration for the Purkinje network. This way well-known
+        structures of the Purkinje system, like the Left-Bundle-Branch (LBB) and Right-Bundle-Branch (RBB), can be constructed beforehand using different techniques and be supplied as the initial
+        network in order to provide better guidance of the regions that the PN certainly will occupy based on physiological observations. The second advantage of this feature is extending an already
+        constructed PN by including different branches on its topology. For instance, these PNs could come as the output of another method already available in the literature. Thus, the user could want to
+        increase its endocardium coverage or connect additional PVJs points, which is a feature that the available methods to generate PN in the literature currently do not have implemented.
+        
+        <div class="col s12 tag-div">
+            <div class="center">
+                <video width="640" height="480" controls>
+                    <source src="/assets/img/projects/vid/shocker_algorithm_summary_finsberg_LV.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> 
+                <p>Purkinje network growing in a left ventricle endocardium surface with the Shocker program.</p>
+            </div>
+        </div>
+
+        The PN generated by the Shocker program were constructed in such way that they can be used alongside the MonoAlg3D program in cardiac simulations. 
+        Here are a few MonoAlg3D simulations executed with different types of Purkinje networks generated by the Shocker program. The endocardium surfaces have an increasing level of complexity.
+
+        <div class="col s12 tag-div">
+            <div class="center">
+                <video width="640" height="480" controls>
+                    <source src="/assets/img/projects/vid/shocker_monoalg_finsberg_ref_best_worst.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> 
+                <p>MonoAlg3D simulations with different Purkinje networks considering a <b>Simplified biventricular mesh</b>.</p> 
+                <p>On the left side of the video, a reference Purkinje network is given and activates both ventricles. </p>
+                <p>In the middle and right panels, two Purkinje networks generated by the Shocker program, where one have a good accuracy in connecting the active PVJs from the reference Purkinje network.</p>
+            </div>
+        </div>
+
+        <div class="col s12 tag-div">
+            <div class="center">
+                <video width="640" height="480" controls>
+                    <source src="/assets/img/projects/vid/shocker_monoalg_canine_ref_best_worst.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> 
+                <p>MonoAlg3D simulations with different Purkinje networks considering a <b>Canine biventricular mesh</b>.</p> 
+                <p>On the left side of the video, a reference Purkinje network is given and activates both ventricles. </p>
+                <p>In the middle and right panels, two Purkinje networks generated by the Shocker program, where one have a good accuracy in connecting the active PVJs from the reference Purkinje network.</p>
+            </div>
+        </div>
+
+        <div class="col s12 tag-div">
+            <div class="center">
+                <video width="640" height="480" controls>
+                    <source src="/assets/img/projects/vid/shocker_monoalg_sebastian_ref_best_worst.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> 
+                <p>MonoAlg3D simulations with different Purkinje networks considering a <b>Patient-specific biventricular mesh</b>.</p> 
+                <p>On the left side of the video, inferred active PVJs activates both ventricles. </p>
+                <p>In the middle and right panels, two Purkinje networks generated by the Shocker program, where one have a good accuracy in connecting the active PVJs from the reference Purkinje network.</p>
+            </div>
+        </div>
+
 
     # picture
     #- type: id_picture
@@ -285,3 +213,152 @@ page_data:
     #  date: "2021-12-20"
     #  post: |
     #    Be the change that you wish to see in the world.
+
+
+    # example
+#    - type: id_example
+#      project_name: "Example Project"
+#      project_excerpt: "Examples"
+#      img: ":project1_thumb.jpg"
+#      img_title: "img title1"
+#      date: "2021-03-13"
+#      post: |
+#        # Examples
+#
+#        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+#
+#        ### Headings (centered)
+#        {:data-align="center"}
+#
+#        # Heading 1
+#
+#        ## Heading 2
+#
+#        ### Heading 3
+#
+#        #### Heading 4
+#
+#        ##### Heading 5
+#
+#        ###### Heading 6
+#
+#        ***
+#
+#        ### Paragraphs
+#
+#        #### Paragraph
+#
+#        **William Shakespeare**, Let me not to the marriage of true minds
+#        Admit impediments. Love is not love
+#        Which alters when it alteration finds,
+#        Or bends with the remover to remove.
+#        O no, it is an ever-fixed mark
+#        That looks on tempests and is never shaken;
+#        It is the star to every wand'ring barque,
+#        Whose worth's unknown, although his height be taken.
+#        Love's not Time's fool, though rosy lips and cheeks
+#        Within his bending sickle's compass come;
+#        Love alters not with his brief hours and weeks,
+#        But bears it out even to the edge of doom.
+#        If this be error and upon me proved,
+#        I never writ, nor no man ever loved.
+#
+#        #### Texts
+#
+#        Quoted text `Hello world`
+#
+#        Bold text **Hello world**
+#
+#        Italic text _Hello world_
+#
+#        kbd text <kbd>Hello world</kbd>
+#
+#        #### Blockquote
+#
+#        > **William Shakespeare**, Let me not to the marriage of true minds
+#        Admit impediments. Love is not love
+#        Which alters when it alteration finds,
+#        Or bends with the remover to remove.
+#        O no, it is an ever-fixed mark
+#        That looks on tempests and is never shaken;
+#        It is the star to every wand'ring barque,
+#        Whose worth's unknown, although his height be taken.
+#        Love's not Time's fool, though rosy lips and cheeks
+#        Within his bending sickle's compass come;
+#        Love alters not with his brief hours and weeks,
+#        But bears it out even to the edge of doom.
+#        If this be error and upon me proved,
+#        I never writ, nor no man ever loved.
+#
+#        ### Link
+#
+#        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
+#
+#        ### Picture
+#
+#        ![such a lovely place](:projects-heading.jpg)
+#
+#        ### Picture (centered)
+#
+#        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
+#
+#        ### Lists
+#
+#        - Apple
+#        - Banana
+#        - Orange
+#
+#        1. Fruits
+#            1. Apples
+#                - Granny Smith
+#                - Mutsu
+#            1. Bananas
+#                - Cavendish
+#                - Red
+#        1. Vegetables
+#
+#        ***
+#
+#        ### Tables
+#
+#        #### Small Table (centered)
+#
+#        | Fruits(not aligned) | Alignment (centered) | num (right align) |
+#        | ------------------- | :------------------: | ----------------: |
+#        | Apple               |       centered       |              9999 |
+#        | Banana              |  centered long text  |               999 |
+#        | Orange              |       centered       |                99 |
+#        | Lemon               |       centered       |                 9 |
+#        {:data-align="center"}
+#
+#        #### Wide Table (centered)
+#
+#        scroll enabled when page is narrow
+#
+#        | Fruits | num (left align) | num (right align) | num  | num  | num  |
+#        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
+#        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
+#        | Banana | 111              |               111 | 222  | 333  | 444  |
+#        | Orange | 11               |                11 | 22   | 33   | 44   |
+#        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
+#        {:data-align="center"}
+#
+#        #### Wider Table
+#
+#        scroll enabled when page is narrow
+#
+#        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
+#        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
+#        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
+#        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
+#        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
+#        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
+#
+#        ### Code
+#
+#        #### Quote
+#
+#        ```python
+#        for i in range(5, 10):
+#          print(i)
+#        ```

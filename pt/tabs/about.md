@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":about.jpg"
+img: ":profile.png"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -34,9 +34,15 @@ img: ":about.jpg"
 #published: false
 ---
 
+Olá, meu nome é Lucas Berg. Sou um pesquisador brasileiro com doutorado em Modelagem Computacional pela Universidade Federal de Juiz de Fora. Durante minha carreira, trabalhei em diferentes projetos de pesquisa relacionados a eletrofisiologia cardíaca. Minha área de interesse é Computação de Alto Desempenho (HPC) com ênfase no desenvolvimento de programas paralelos em CPU e GPU. Acredito que o desenvolvimento de programas nesta área podem melhorar e muito o mundo da tecnologia através da redução no tempo gasto na solução de problemos complexos que temos atualmente.
+
+Além disso, acredito que o conhecimento em programação é algo que deve ser repassado ao maior número de pessoas. Especialmente hoje em dia, em que praticamente tudo depende de algum tipo de programa para funcionar. O conhecimento em programação não é somente importante para entender o mundo conectado que vivemos, mas é também uma importante ferramenta para melhorar técnicas de resolução de problemas. Pensando nisto, procuro sempre repassar meus conhecimentos para outras pessoas. Esta troca é ainda mais importante no ramo da tecnologia, visto que uma simples ajuda pode servir de motivação para uma pessoa continuar neste ramo.
+
+{%- comment -%}
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 {%- include util/auto-content-generator.liquid -%}
 {{ website_info_text_first }}
 
 {{ website_info_text_second }}
+{%- endcomment -%}

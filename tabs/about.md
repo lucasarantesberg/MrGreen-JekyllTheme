@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":about.jpg"
+img: ":profile.png"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -34,9 +34,15 @@ img: ":about.jpg"
 #published: false
 ---
 
+Hello, my name is Lucas Berg. I am a brazilian researcher with a PhD in Computational Modeling by the Federal University of Juiz de Fora. During my career, I work in different research projects related to cardiac electrophysiology. My major interest is High Performance Computing (HPC) and I believe that software development in this area can really improve our world by reducing the ammount of time spent on solving complex problems.
+
+In addition, for me learning programming is something that everyone should know, especially nowadays where almost everything depends on some kind of software to work. Programming is not only important to understand our connected world, but also helps us in improving our problem solving techniques. Because of that, I always try to pass my knowledge to someone who is facing a similar problem that I already been through. I reckon that helping other people either by teaching them about how to use a new technology or by giving suggestions on how to tackle a problem can be a motivation for not giving up, especially in this field  .
+
+{%- comment -%}
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 {%- include util/auto-content-generator.liquid -%}
 {{ website_info_text_first }}
 
 {{ website_info_text_second }}
+{%- endcomment -%}
